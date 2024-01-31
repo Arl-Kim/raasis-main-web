@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Services from './components/Services';
 import AboutUs from './components/AboutUs';
@@ -36,6 +36,7 @@ function App() {
               <li>
                 <Link to="/services">Services</Link>
                 <ul className="submenu">
+                  <RotatingText />
                   <li><Link to="/services/software-development">Software Development</Link></li>
                   <li><Link to="/services/website-design">Website Design & Development</Link></li>
                   <li><Link to="/services/web-application">Web Application Development</Link></li>
@@ -98,6 +99,32 @@ function App() {
         </Routes>
       </div>
     </Router>
+  );
+}
+
+function RotatingText() {
+  const phrases = [
+    'We build and deploy across the tech stack',
+    'We strictly adhere to agile SE processes that are industry proven',
+    'We guarantee robust and secure digital products',
+  ];
+
+  const [currentPhrase, setCurrentPhrase] = useState(phrases[0]);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      const randomIndex = Math.floor(Math.random() * phrases.length);
+      setCurrentPhrase(phrases[randomIndex]);
+    }, 10000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
+  return (
+    <div className="submenu-text">
+      <p>Here's What We Do</p>
+      <p>{currentPhrase}</p>
+    </div>
   );
 }
 
