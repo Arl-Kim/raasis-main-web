@@ -34,7 +34,8 @@ function App() {
           <nav>
             <ul>
               <li>
-                <Link to="/services">Services</Link>
+                <Link to="/services">Services<span class="material-symbols-sharp">keyboard_double_arrow_down</span>
+                </Link>
                 <ul className="submenu">
                   <RotatingText />
                   <li><Link to="/services/software-development">Software Development</Link></li>
@@ -49,7 +50,8 @@ function App() {
                 </ul>
               </li>
               <li>
-                <Link to="/about-us">About Us</Link>
+                <Link to="/about-us">About Us<span class="material-symbols-sharp">keyboard_double_arrow_down</span>
+                </Link>
                 <ul className="submenu">
                   <li><Link to="/about-us/our-culture">Our Culture</Link></li>
                   <li><Link to="/about-us/our-team">Our Team</Link></li>
@@ -59,7 +61,8 @@ function App() {
               <li><Link to="/industries">Industries</Link></li>
               <li><Link to="/built-by-us">Built By Us</Link></li>
               <li>
-                <Link to="/hire-a-developer">Hire A Developer</Link>
+                <Link to="/hire-a-developer">Hire A Developer<span class="material-symbols-sharp">keyboard_double_arrow_down</span>
+                </Link>
                 <ul className="submenu">
                   <li><Link to="/hire-a-developer/front-end">Front-End</Link></li>
                   <li><Link to="/hire-a-developer/back-end">Back-End</Link></li>

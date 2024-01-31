@@ -1,10 +1,8 @@
-/* Reset some default margin and padding for a clean layout */
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
 }
 
-/* Apply a background color to the body */
 body {
   background-color: #f4f4f4;
 }
@@ -42,12 +40,21 @@ nav ul li {
   position: relative;
 }
 
+.material-symbols-sharp {
+  font-size: 16px;
+  position: absolute;
+  top: 5px;
+  right: 1.5px;
+  color: #0071bc;
+}
+
 nav ul li a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
   transition: color 0.3s ease-in-out;
   padding: 20px;
+  padding-bottom: 40px;
 }
 
 nav ul li:hover a {
@@ -82,6 +89,7 @@ nav ul ul {
   border-radius: 5px;
   padding: 15px;
   box-shadow: 0 2px 5px #0071bc;
+  margin-top: 30px;
 }
 
 nav ul li:hover > ul {
