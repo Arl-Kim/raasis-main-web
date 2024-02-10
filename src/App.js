@@ -108,7 +108,7 @@ function App() {
 function RotatingText() {
   const phrases = [
     'We build and deploy across the tech stack',
-    'We strictly adhere to agile SE processes that are industry proven',
+    'We strictly adhere to industry proven Agile SE processes',
     'We guarantee robust and secure digital products',
   ];
 

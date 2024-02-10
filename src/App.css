@@ -48,7 +48,6 @@ nav ul li {
   top: 4px;
   left: 4px;
   right: 4px;
-  color: #fff;
 }
 
 nav ul li a {
@@ -69,6 +68,7 @@ nav ul li:hover a {
   color: #e9bc77;
   text-align: left;
   margin-bottom: 15px;
+  white-space: nowrap;
 }
 
 .submenu-text p:first-child {
