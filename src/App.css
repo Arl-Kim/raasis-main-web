@@ -112,15 +112,16 @@ nav ul ul a {
 }
 
 nav ul ul a:hover{
-  background-color: #48839e;
+  background-color: #0071bc;
+  color: #163153;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
 /* Submenu Text Styling */
 .submenu-text {
-  color: #fff;
-  text-align: left;
+  color: #0071bc;
+  text-align: center;
   margin-bottom: 15px;
   white-space: nowrap;
 }
