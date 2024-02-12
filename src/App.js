@@ -37,7 +37,6 @@ function App() {
                 <Link to="/services">Services<span class="material-symbols-sharp">keyboard_double_arrow_down</span>
                 </Link>
                   <ul className="submenu">
-                    <RotatingText />
                     <li><Link to="/services/software-development">Software Development</Link></li>
                     <li><Link to="/services/website-design">Website Design & Development</Link></li>
                     <li><Link to="/services/web-application">Web Application Development</Link></li>
@@ -47,6 +46,7 @@ function App() {
                     <li><Link to="/services/mvp-development">MVP Development</Link></li>
                     <li><Link to="/services/computer-architecture">Computer Architecture</Link></li>
                     <li><Link to="/services/graphics-design">Graphics Design</Link></li>
+                    <RotatingText />
                   </ul>
               </li>
               <li>
@@ -125,7 +125,6 @@ function RotatingText() {
 
   return (
     <div className="submenu-text">
-      <p>Here's What We Do</p>
       <p>{currentPhrase}</p>
     </div>
   );
