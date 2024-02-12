@@ -38,17 +38,15 @@ function App() {
                 </Link>
                   <ul className="submenu">
                     <RotatingText />
-                    <div className="services-subitems">
-                      <li><Link to="/services/software-development">Software Development</Link></li>
-                      <li><Link to="/services/website-design">Website Design & Development</Link></li>
-                      <li><Link to="/services/web-application">Web Application Development</Link></li>
-                      <li><Link to="/services/mobile-application">Mobile Application Development</Link></li>
-                      <li><Link to="/services/website-maintenance">Maintenance & Content Management</Link></li>
-                      <li><Link to="/services/software-project">Software Project Management</Link></li>
-                      <li><Link to="/services/mvp-development">MVP Development</Link></li>
-                      <li><Link to="/services/computer-architecture">Computer Architecture</Link></li>
-                      <li><Link to="/services/graphics-design">Graphics Design</Link></li>
-                    </div>
+                    <li><Link to="/services/software-development">Software Development</Link></li>
+                    <li><Link to="/services/website-design">Website Design & Development</Link></li>
+                    <li><Link to="/services/web-application">Web Application Development</Link></li>
+                    <li><Link to="/services/mobile-application">Mobile Application Development</Link></li>
+                    <li><Link to="/services/website-maintenance">Maintenance & Content Management</Link></li>
+                    <li><Link to="/services/software-project">Software Project Management</Link></li>
+                    <li><Link to="/services/mvp-development">MVP Development</Link></li>
+                    <li><Link to="/services/computer-architecture">Computer Architecture</Link></li>
+                    <li><Link to="/services/graphics-design">Graphics Design</Link></li>
                   </ul>
               </li>
               <li>

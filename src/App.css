@@ -101,12 +101,6 @@ nav ul li:hover > ul {
   gap: 20px;
 }
 
-.services-subitems{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
 nav ul li:hover > ul.left {
   left: auto;
   right: 0;
