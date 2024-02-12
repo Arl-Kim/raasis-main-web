@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import IntroductionSection from './components/IntroductionSection';
 import Services from './components/Services';
 import AboutUs from './components/AboutUs';
 import Industries from './components/Industries';
@@ -75,6 +76,8 @@ function App() {
           </div>
         </header>
 
+        <IntroductionSection />
+
         <Routes>
           <Route path="/services" element={<Services />} />
           
@@ -108,7 +111,7 @@ function App() {
 function RotatingText() {
   const phrases = [
     'We build and deploy across the tech stack',
-    'We strictly adhere to industry proven Agile SE processes',
+    'We strictly adhere to industry-proven Agile SE processes',
     'We guarantee robust and secure digital products',
   ];
 
