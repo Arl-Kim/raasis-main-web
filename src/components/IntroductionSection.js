@@ -1,12 +1,30 @@
 import React, {useState, useEffect} from 'react';
 
 function IntroductionSection(){
+  const images = [
+    '/assets/js.webp',
+    '/assets/angular.webp',
+    '/assets/Vue.webp',
+    '/assets/aws.webp',
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 5000); // Control interval as needed
+
+    return () => clearInterval(intervalId);
+  }, []);
+
+
     return(
         <div className="introduction-container">
             {/* Left Section (Image Carousel) */}
             <div className="left-section">
               <div className="img-container">
-                <img src="/assets/js.webp" />
+                <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
               </div>
             </div>
             
