@@ -201,4 +201,8 @@ nav ul ul a:hover{
 .intro-paragraph p{
   color: #fff;
   text-align: justify;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.75px;
 }
