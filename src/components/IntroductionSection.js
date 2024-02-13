@@ -33,9 +33,7 @@ function IntroductionSection(){
                 <RotatingHeaderText />
                 <div className="intro-paragraph">
                   <p>
-                    Welcome to The Ra'Asis somaCode Platform, where coding meets creativity in a fun and engaging atmosphere! 🌟 Whether you're a coding newbie or a tech enthusiast, our platform offers a range of exciting learning sections, from HTML, CSS & JavaScript to Python and Java. Uncover the secrets of coding magic, experiment with dynamic languages, and turn your ideas into digital masterpieces. With our user-friendly approach featuring a number of engaging exercises and scenarios, you'll be amazed at how coding becomes an adventure.
-
-                    Join us on this exciting journey, and let's craft a world of innovation together! We will transform businesses of most major sectors with powerful and adaptable digital solutions that satisfy the needs of today. 
+                    We design, build, deploy and manage custom software as well as digital products and tools that are utilised in a number of industries. Are you an individual, a startup or even an established market leader in your industry ? Ra'Asis could be your trusted IT partner today. Together we will tap into the power of digital innovation and craft your success story. Our development approach combines strict Agile Software Engineering processes with efficient CI/CD methods.
                   </p>
                 </div>
             </div>
