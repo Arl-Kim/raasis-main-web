@@ -131,7 +131,7 @@ nav ul ul a:hover{
   font-size: 11px;
 }
 
-/* Button Styling */
+/* CTA Button Styling */
 .cta-button {
   margin-left: 10px;
 }
@@ -155,4 +155,42 @@ nav ul ul a:hover{
   border-bottom-left-radius: 0px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+/* Introduction Section Styling */
+.introduction-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
+  align-items: center;
+  margin: 50px;
+}
+
+.left-section{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.img-container{
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.rotating-header {
+  color: #d78129;
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.intro-paragraph p{
+  text-align: justify;
 }

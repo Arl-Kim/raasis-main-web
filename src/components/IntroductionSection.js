@@ -5,22 +5,21 @@ function IntroductionSection(){
         <div className="introduction-container">
             {/* Left Section (Image Carousel) */}
             <div className="left-section">
-                <img src="/assets/android.webp" alt="Image 1" />
-                <img src="/assets/apple.webp" alt="Image 2" />
-                <img src="/assets/angular.webp" alt="Image 1" />
-                <img src="/assets/Vue.webp" alt="Image 1" />
-                <img src="/assets/PhP.webp" alt="Image 2" />
-                <img src="/assets/ruby.webp" alt="Image 1" />
-                <img src="/assets/MySQL.webp" alt="Image 1" />
-                <img src="/assets/aws.webp" alt="Image 2" />
+              <div className="img-container">
+                <img src="/assets/js.webp" />
+              </div>
             </div>
             
             {/* Right Section (Rotating Text) */}
             <div className="right-section">
                 <RotatingHeaderText />
-                <p>
-                    Your paragraph text here.
-                </p>
+                <div className="intro-paragraph">
+                  <p>
+                    Welcome to The Ra'Asis somaCode Platform, where coding meets creativity in a fun and engaging atmosphere! 🌟 Whether you're a coding newbie or a tech enthusiast, our platform offers a range of exciting learning sections, from HTML, CSS & JavaScript to Python and Java. Uncover the secrets of coding magic, experiment with dynamic languages, and turn your ideas into digital masterpieces. With our user-friendly approach featuring a number of engaging exercises and scenarios, you'll be amazed at how coding becomes an adventure.
+
+                    Join us on this exciting journey, and let's craft a world of innovation together! We will transform businesses of most major sectors with powerful and adaptable digital solutions that satisfy the needs of today. 
+                  </p>
+                </div>
             </div>
         </div>
     );
