@@ -159,17 +159,18 @@ nav ul ul a:hover{
 
 /* Introduction Section Styling */
 .introduction-container {
+  background-image: linear-gradient(#163153, #0071bc);
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   gap: 20px;
   align-items: center;
-  margin: 50px;
 }
 
 .left-section{
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  margin-left: 50px;
 }
 
 .img-container{
@@ -178,10 +179,16 @@ nav ul ul a:hover{
   margin: auto;
 }
 
+.img-container img{
+  width: 400px;
+  height: 400px;
+}
+
 .right-section {
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  margin-right: 50px;
 }
 
 .rotating-header {
@@ -192,5 +199,6 @@ nav ul ul a:hover{
 }
 
 .intro-paragraph p{
+  color: #fff;
   text-align: justify;
 }
