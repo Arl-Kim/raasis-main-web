@@ -11,7 +11,10 @@ body {
 
 /* Header Styling */
 header {
-  background-color: #163153;
+  background-image: url("/public/assets/headerbg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
   color: #fff;
   padding: 15px 20px;
   display: flex;
