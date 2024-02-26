@@ -1,6 +1,6 @@
 # Ra'Asis Web React App
 
-This project is a dynamic React web application for Ra'Asis, a platform that combines coding with creativity. It offers an engaging space to learn and experiment with coding languages like HTML, CSS, JavaScript, Python, and Java.
+This project is a dynamic React web application for Ra'Asis, a platform that links Ra'Asis clients directly with our services and development teams.
 
 ## Getting Started
 
