@@ -162,7 +162,7 @@ nav ul ul a:hover{
 
 /* Introduction Section Styling */
 .introduction-container {
-  background-image: linear-gradient(#163153, #0071bc);
+  background-color:#163153;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   gap: 20px;
@@ -208,4 +208,52 @@ nav ul ul a:hover{
   font-weight: 500;
   line-height: 31px;
   letter-spacing: 0.75px;
+  margin-bottom: 20px;
+}
+
+.intro-buttons{
+  padding: 10px;
+}
+
+ #dev_team{
+  background-color: #163153;
+  color: #d78129;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-weight: 800;
+  border: 3px double #d78129;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transition: all 0.5s ease-in-out;
+  margin-right: 30px;
+}
+
+#dev_team:hover{
+  background-color: #d78129;
+  color: #163153;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#more_about{
+  background-color: #d78129;
+  color: #163153;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-weight: 800;
+  border: 3px double #163153;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+#more_about:hover{
+  background-color: #163153;
+  color: #d78129;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }

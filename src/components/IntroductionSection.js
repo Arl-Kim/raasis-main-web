@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import { Link } from 'react-router-dom';
 
 function IntroductionSection(){
   const images = [
@@ -41,6 +42,16 @@ function IntroductionSection(){
                     We design, build, deploy and manage custom software as well as digital products and tools that are utilised in a number of industries. Are you an individual, a startup or even an established market leader in your industry ? Ra'Asis could be your trusted IT partner today. Together we will tap into the power of digital innovation and craft your success story. Our development approach combines strict Agile Software Engineering processes with efficient CI/CD methods.
                   </p>
                 </div>
+
+                {/* Buttons Section */}
+                <div className="intro-buttons">
+                  <Link to="/request-quote" id="dev_team">
+                    Get Your Dev Team
+                  </Link>
+                  <Link to="/about-us" id="more_about">
+                    More About Ra'Asis
+                  </Link>
+                </div>
             </div>
         </div>
     );
@@ -50,7 +61,7 @@ function RotatingHeaderText(){
     const phrases = [
         'Robust & Secure',
         'Quality Assured',
-        'Technology From & For The Future',
+        'Technology For The Future',
       ];
     
       const [currentPhrase, setCurrentPhrase] = useState(phrases[0]);
