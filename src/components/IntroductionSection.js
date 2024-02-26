@@ -5,6 +5,11 @@ function IntroductionSection(){
     '/assets/js.webp',
     '/assets/angular.webp',
     '/assets/Vue.webp',
+    '/assets/apple.webp',
+    '/assets/android.webp',
+    '/assets/PhP.webp',
+    '/assets/ruby.webp',
+    '/assets/MySQL.webp',
     '/assets/aws.webp',
   ];
 
