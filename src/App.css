@@ -285,6 +285,14 @@ nav ul ul a:hover{
   flex-direction: column;
   max-width: 100%;
   margin-left: 50px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+}
+
+.process-menu h2{
+  font-size: 28px;
+  margin-bottom: 40px;
 }
 
 .process-description{
