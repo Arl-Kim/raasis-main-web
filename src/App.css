@@ -255,3 +255,28 @@ nav ul ul a:hover{
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
+
+/*Project Process Section Styling*/
+
+.process-section{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.process-menu{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-left: 50px;
+}
+
+.process-description{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-right: 50px;
+}
