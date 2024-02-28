@@ -1,3 +1,5 @@
+/*General Styles*/
+
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
@@ -8,6 +10,23 @@ body {
   background: url("/public/assets/headerbg.png") repeat fixed;
   background-size: contain;
   overflow-x: hidden;
+}
+
+h1{
+  color: #d78129;
+}
+
+h2, h3, h4{
+  color: #0071bc;
+}
+
+p{
+  color: #fff;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.75px;
 }
 
 /* Header Styling */
@@ -199,12 +218,6 @@ nav ul ul a:hover{
 }
 
 .intro-paragraph p{
-  color: #fff;
-  text-align: justify;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 31px;
-  letter-spacing: 0.75px;
   margin-bottom: 20px;
 }
 
