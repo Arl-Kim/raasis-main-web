@@ -241,6 +241,7 @@ nav ul ul a:hover{
 #dev_team:hover{
   background-color: #d78129;
   color: #163153;
+  box-shadow: 0 0 5px #e9bc77;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 15px;
@@ -263,6 +264,7 @@ nav ul ul a:hover{
   background-color: #0071bc;
   color: #163153;
   border-color: #0071bc;
+  box-shadow: 0 0 10px #0071bc;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 15px;
