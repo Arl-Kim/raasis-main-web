@@ -300,10 +300,11 @@ nav ul ul a:hover{
   margin-left: 50px;
   margin-bottom: 20px;
   cursor: pointer;
-  transition: all 500ms ease-in-out;
+  transition: color 0.5s ease-in-out, margin-left 0.5s ease-in-out;
 }
 
-.process-item:hover{
+.process-item:hover, 
+.process-item.active{
   color: #0071bc;
   margin-left: 60px;
 }
