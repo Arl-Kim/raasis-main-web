@@ -303,6 +303,13 @@ nav ul ul a:hover{
   transition: color 0.5s ease-in-out, margin-left 0.5s ease-in-out;
 }
 
+.processIcons{
+  font-size: 40px;
+  position: relative;
+  top: 4px;
+  right: 7px;
+}
+
 .process-item:hover, 
 .process-item.active{
   color: #0071bc;
