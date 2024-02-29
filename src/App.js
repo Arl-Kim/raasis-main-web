@@ -137,12 +137,12 @@ function RotatingText() {
 
 function ProjectProcessSection() {
   const processes = [
-    'Analysis',
-    'Design',
-    'Coding/Implementation',
-    'Testing',
-    'Deployment',
-    'Maintenance',
+    { name: 'Analysis', icon: 'assessment' },
+    { name: 'Design', icon: 'design_services' },
+    { name: 'Coding/Implementation', icon: 'code' },
+    { name: 'Testing', icon: 'bug_report' },
+    { name: 'Deployment', icon: 'cloud_upload' },
+    { name: 'Maintenance', icon: 'handyman' },
   ];
 
   const [selectedProcess, setSelectedProcess] = useState('');
@@ -166,13 +166,14 @@ function ProjectProcessSection() {
         <h2>Your Project Will Follow These Steps...</h2>
         {processes.map((process) => (
           <div
-            key={process}
+            key={process.name}
             className={`process-item ${
-              selectedProcess === process ? 'active' : ''
+              selectedProcess === process.name ? 'active' : ''
             }`}
-            onClick={() => handleClick(process)}
+            onClick={() => handleClick(process.name)}
           >
-            {process}
+            <span className="material-symbols-sharp processIcons">{process.icon}</span>
+            {process.name}
           </div>
         ))}
       </div>
