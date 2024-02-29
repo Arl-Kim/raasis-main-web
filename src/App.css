@@ -279,7 +279,7 @@ nav ul ul a:hover{
   grid-template-columns: repeat(2, 2fr);
   gap: 20px;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 .process-menu{
@@ -287,9 +287,6 @@ nav ul ul a:hover{
   flex-direction: column;
   max-width: 100%;
   margin-left: 50px;
-  cursor: pointer;
-  font-size: 24px;
-  color: #fff;
 }
 
 .process-menu h2{
@@ -297,9 +294,24 @@ nav ul ul a:hover{
   margin-bottom: 40px;
 }
 
+.process-item{
+  color: #fff;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+.process-item:hover{
+  color: #0071bc;
+  margin-left: 60px;
+}
+
 .process-description{
   display: flex;
   flex-direction: column;
   max-width: 100%;
   margin-right: 50px;
+  margin-top: 50px;
 }
