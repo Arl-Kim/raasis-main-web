@@ -338,6 +338,7 @@ nav ul ul a:hover{
 
 .s-overview-intro{
   text-align: center;
+  margin: 0 50px 50px 50px;
 }
 
 .s-overview-intro h2{
@@ -352,9 +353,10 @@ nav ul ul a:hover{
   display: grid;
   grid-template-columns: repeat(3, 3fr);
   gap: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .service{
-  margin: 50px;
   padding: 20px;
 }
