@@ -145,7 +145,7 @@ function ProjectProcessSection() {
     { name: 'Maintenance', icon: 'handyman' },
   ];
 
-  const [selectedProcess, setSelectedProcess] = useState('');
+  const [selectedProcess, setSelectedProcess] = useState('Analysis');
 
   const processDescriptions = {
     Analysis: 'Your project idea will first be analysed by the senior team members and domain experts to determine the project requirements, anticipated issues, scope and the necessary timeline for its completion.',
@@ -159,6 +159,10 @@ function ProjectProcessSection() {
   const handleClick = (process) => {
     setSelectedProcess(process);
   };
+
+  useEffect(() => { // Load the description for the default selected process
+    setSelectedProcess('Analysis');
+  }, []); // Empty dependency array ensures this effect runs once when the component mounts
 
   return (
     <div className="process-section">
