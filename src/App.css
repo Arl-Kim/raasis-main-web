@@ -327,6 +327,22 @@ nav ul ul a:hover{
 
 /*Services Overview Section Styling*/
 
+.s-overview-main{
+  margin-top: 100px;
+}
+
+.s-overview-intro{
+  text-align: center;
+}
+
+.s-overview-intro h2{
+  color: #d78129;
+}
+
+.s-overview-intro p{
+  text-align: center;
+}
+
 .services-overview{
   display: grid;
   grid-template-columns: repeat(3, 3fr);
