@@ -6,7 +6,7 @@ function ServicesOverviewSection() {
         <div class="s-overview-intro">
             <h2>Innovate For The Future With These Services</h2>
             <p>
-                Discover the power of technology across multiple industries, we have just the right solutions to align with your business goals
+                The power of technology across multiple industries, we have just the right solutions to align with your business goals
             </p>
         </div>
         <div className="services-overview">
