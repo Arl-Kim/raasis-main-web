@@ -87,7 +87,7 @@ function ServicesOverviewSection() {
       {/*Graphics*/}
       <div className="service">
         <div className="service-icon">
-          <span className="material-symbols-sharp">developer_mode_tv</span>
+          <span className="material-symbols-sharp">design_services</span>
         </div>
         <h3>Graphics Design</h3>
         <p>Experience captivating visuals from us and get your custom branding tools</p>
