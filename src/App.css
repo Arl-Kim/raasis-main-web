@@ -323,3 +323,17 @@ nav ul ul a:hover{
   margin-right: 50px;
   margin-top: 50px;
 }
+
+
+/*Services Overview Section Styling*/
+
+.services-overview{
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 20px;
+}
+
+.service{
+  margin: 50px;
+  padding: 20px;
+}
