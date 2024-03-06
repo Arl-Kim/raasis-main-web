@@ -19,7 +19,7 @@ function ServicesOverviewSection() {
         <div className="service-icon">
           <span className="material-symbols-sharp">developer_mode</span>
         </div>
-        <h3>Mobile Application Development</h3>
+        <h3>Mobile App Development</h3>
         <p>Custom mobile apps tailored to your needs.</p>
         <button>Learn More</button>
       </div>
@@ -49,7 +49,7 @@ function ServicesOverviewSection() {
         <div className="service-icon">
           <span className="material-symbols-sharp">handyman</span>
         </div>
-        <h3>Maintenance & Content Managementment</h3>
+        <h3>Maintenance & Management</h3>
         <p>Get analysis and maintenance for your existing software</p>
         <button>Learn More</button>
       </div>
