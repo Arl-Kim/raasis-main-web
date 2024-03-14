@@ -377,6 +377,30 @@ nav ul ul a:hover{
   border-bottom-right-radius: 15px;
 }
 
+.service h3{
+  color: #d78129;
+  text-align: center;
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.service p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.service:hover span{
+  color: #163153;
+  background-color: #d78129;
+}
+
+.service:hover h3{
+  color: #163153;
+}
+
 .service-icon{
   max-width: fit-content;
   margin: auto;
@@ -388,20 +412,7 @@ nav ul ul a:hover{
   font-size: 98px;
   padding: 30px;
   border-radius: 15px;
-}
-
-.service h3{
-  color: #d78129;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.service p{
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0.5px;
-  text-align: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .service-btn{
