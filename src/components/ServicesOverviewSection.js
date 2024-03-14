@@ -17,7 +17,7 @@ function ServicesOverviewSection() {
                     <span className="material-symbols-sharp">developer_mode_tv</span>
                 </div>
                 <h3>Software Development</h3>
-                <p>Custom software solutions tailored to your needs.</p>
+                <p>Custom software solutions for your business</p>
                 <div className="service-btn">
                     <button>Learn More</button>
                 </div>
@@ -29,7 +29,7 @@ function ServicesOverviewSection() {
                     <span className="material-symbols-sharp">developer_mode</span>
                 </div>
                 <h3>Mobile App Development</h3>
-                <p>Custom mobile apps tailored to your needs.</p>
+                <p>A mobile app tailored specifically for you</p>
                 <div className="service-btn">
                     <button>Learn More</button>
                 </div>
@@ -41,7 +41,7 @@ function ServicesOverviewSection() {
                     <span className="material-symbols-sharp">rocket_launch</span>
                 </div>
                 <h3>MVP Development</h3>
-                <p>Get an MVP for faster returns</p>
+                <p>Get a Minimum Viable Product (faster returns)</p>
                 <div className="service-btn">
                     <button>Learn More</button>
                 </div>
@@ -53,7 +53,7 @@ function ServicesOverviewSection() {
                     <span className="material-symbols-sharp">devices_other</span>
                 </div>
                 <h3>Website Design & Development</h3>
-                <p>Custom static or dynamic website tailored to your needs.</p>
+                <p>A static or dynamic website for your business</p>
                 <div className="service-btn">
                     <button>Learn More</button>
                 </div>
@@ -65,7 +65,7 @@ function ServicesOverviewSection() {
                     <span className="material-symbols-sharp">handyman</span>
                 </div>
                 <h3>Maintenance & Management</h3>
-                <p>Get analysis and maintenance for your existing software</p>
+                <p>Expert analysis maintenance and management</p>
                 <div className="service-btn">
                     <button>Learn More</button>
                 </div>
@@ -77,7 +77,7 @@ function ServicesOverviewSection() {
                     <span className="material-symbols-sharp">computer</span>
                 </div>
                 <h3>Computer Architecture</h3>
-                <p>Computer architecture solutions and fixes to easen your production processes.</p>
+                <p>Computer architecture solutions and fixes</p>
                 <div className="service-btn">
                     <button>Learn More</button>
                 </div>
@@ -89,7 +89,7 @@ function ServicesOverviewSection() {
                     <span className="material-symbols-sharp">stacks</span>
                 </div>
                 <h3>Web Application Development</h3>
-                <p>Get a full stack web application custom tailored to suit your business needs.</p>
+                <p>A full stack web application for your business</p>
                 <div className="service-btn">
                     <button>Learn More</button>
                 </div>
@@ -101,7 +101,7 @@ function ServicesOverviewSection() {
                     <span className="material-symbols-sharp">monitoring</span>
                 </div>
                 <h3>Software Project Management</h3>
-                <p>Let us manage your software project, together we can realise 100% success</p>
+                <p>Professional management for your project</p>
                 <div className="service-btn">
                     <button>Learn More</button>
                 </div>
@@ -113,7 +113,7 @@ function ServicesOverviewSection() {
                     <span className="material-symbols-sharp">design_services</span>
                 </div>
                 <h3>Graphics Design</h3>
-                <p>Experience captivating visuals from us and get your custom branding tools</p>
+                <p>Captivating visuals for a lasting impression</p>
                 <div className="service-btn">
                     <button>Learn More</button>
                 </div>
