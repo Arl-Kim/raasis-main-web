@@ -406,7 +406,7 @@ nav ul ul a:hover{
 
 .service-btn{
   max-width: fit-content;
-  margin: auto;
+  margin: 70px auto auto auto;
 }
 
 .service-btn button{
