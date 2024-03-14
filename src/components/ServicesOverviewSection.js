@@ -18,7 +18,9 @@ function ServicesOverviewSection() {
                 </div>
                 <h3>Software Development</h3>
                 <p>Custom software solutions tailored to your needs.</p>
-                <button>Learn More</button>
+                <div className="service-btn">
+                    <button>Learn More</button>
+                </div>
             </div>
 
             {/*Mobile Apps*/}
@@ -28,7 +30,9 @@ function ServicesOverviewSection() {
                 </div>
                 <h3>Mobile App Development</h3>
                 <p>Custom mobile apps tailored to your needs.</p>
-                <button>Learn More</button>
+                <div className="service-btn">
+                    <button>Learn More</button>
+                </div>
             </div>
 
             {/*MVP Development*/}
@@ -38,7 +42,9 @@ function ServicesOverviewSection() {
                 </div>
                 <h3>MVP Development</h3>
                 <p>Get an MVP for faster returns</p>
-                <button>Learn More</button>
+                <div className="service-btn">
+                    <button>Learn More</button>
+                </div>
             </div>
 
             {/*Website Design & Development*/}
@@ -48,7 +54,9 @@ function ServicesOverviewSection() {
                 </div>
                 <h3>Website Design & Development</h3>
                 <p>Custom static or dynamic website tailored to your needs.</p>
-                <button>Learn More</button>
+                <div className="service-btn">
+                    <button>Learn More</button>
+                </div>
             </div>
 
             {/*M & C Management*/}
@@ -58,7 +66,9 @@ function ServicesOverviewSection() {
                 </div>
                 <h3>Maintenance & Management</h3>
                 <p>Get analysis and maintenance for your existing software</p>
-                <button>Learn More</button>
+                <div className="service-btn">
+                    <button>Learn More</button>
+                </div>
             </div>
 
             {/*Computer Architecture*/}
@@ -68,7 +78,9 @@ function ServicesOverviewSection() {
                 </div>
                 <h3>Computer Architecture</h3>
                 <p>Computer architecture solutions and fixes to easen your production processes.</p>
-                <button>Learn More</button>
+                <div className="service-btn">
+                    <button>Learn More</button>
+                </div>
             </div>
 
             {/*Web Application*/}
@@ -78,7 +90,9 @@ function ServicesOverviewSection() {
                 </div>
                 <h3>Web Application Development</h3>
                 <p>Get a full stack web application custom tailored to suit your business needs.</p>
-                <button>Learn More</button>
+                <div className="service-btn">
+                    <button>Learn More</button>
+                </div>
             </div>
 
             {/*Software Proj. Management*/}
@@ -88,7 +102,9 @@ function ServicesOverviewSection() {
                 </div>
                 <h3>Software Project Management</h3>
                 <p>Let us manage your software project, together we can realise 100% success</p>
-                <button>Learn More</button>
+                <div className="service-btn">
+                    <button>Learn More</button>
+                </div>
             </div>
 
             {/*Graphics*/}
@@ -98,7 +114,9 @@ function ServicesOverviewSection() {
                 </div>
                 <h3>Graphics Design</h3>
                 <p>Experience captivating visuals from us and get your custom branding tools</p>
-                <button>Learn More</button>
+                <div className="service-btn">
+                    <button>Learn More</button>
+                </div>
             </div>
         </div>
     </div>
