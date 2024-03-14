@@ -389,3 +389,17 @@ nav ul ul a:hover{
   padding: 30px;
   border-radius: 15px;
 }
+
+.service h3{
+  color: #d78129;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.service p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
