@@ -403,3 +403,31 @@ nav ul ul a:hover{
   letter-spacing: 0.5px;
   text-align: center;
 }
+
+.service-btn{
+  max-width: fit-content;
+  margin: auto;
+}
+
+.service-btn button{
+  background-color: #d78129;
+  color: #163153;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-weight: 800;
+  border: 3px double #163153;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.service-btn button:hover{
+  cursor: pointer;
+  background-color: #0071bc;
+  color: #163153;
+  box-shadow: 0 0 10px #0071bc;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
