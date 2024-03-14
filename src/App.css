@@ -376,3 +376,16 @@ nav ul ul a:hover{
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
+.service-icon{
+  max-width: fit-content;
+  margin: auto;
+}
+
+.service-icon span{
+  background-color: #0071bc;
+  color: #d78129;
+  font-size: 98px;
+  padding: 30px;
+  border-radius: 15px;
+}
