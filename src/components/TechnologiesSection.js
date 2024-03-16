@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function TechnologiesSection() {
     const categories = [
-        { id: 'mobile', name: 'Mobile', images: ['ios_swift.svg', 'kotlin_logo.svg', 'flutter.svg', 'react_native.svg', 'pwa-logo.svg'] },
+        { id: 'mobile', name: 'Mobile', images: ['ios_swift.svg', 'kotlin_logo.svg', 'flutter.svg', 'react_native.svg', 'pwa_logo.svg'] },
         { id: 'frontend', name: 'Front-End', images: ['frontend1.jpg', 'frontend2.jpg', 'frontend3.jpg'] },
         { id: 'backend', name: 'Back-End', images: ['backend1.jpg', 'backend2.jpg', 'backend3.jpg'] },
         { id: 'cms', name: 'CMS & ECommerce', images: ['cms1.jpg', 'cms2.jpg', 'cms3.jpg'] },
