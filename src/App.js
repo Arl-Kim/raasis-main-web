@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import IntroductionSection from './components/IntroductionSection';
 import ServicesOverviewSection from './components/ServicesOverviewSection';
+import TechnologiesSection from './components/TechnologiesSection';
 import Services from './components/Services';
 import AboutUs from './components/AboutUs';
 import Industries from './components/Industries';
@@ -82,6 +83,8 @@ function App() {
         <ProjectProcessSection />
 
         <ServicesOverviewSection />
+
+        <TechnologiesSection />
 
         <Routes>
           <Route path="/services" element={<Services />} />
