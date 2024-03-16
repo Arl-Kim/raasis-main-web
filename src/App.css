@@ -442,3 +442,47 @@ nav ul ul a:hover{
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
+
+/* Technologies Section Styling */
+.technologies-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.technologies-section h2 {
+  color: #d78129;
+  font-size: 28px;
+}
+
+.technologies-section p {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.technologies-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.technologies-nav li {
+  margin: 0 15px;
+}
+
+.technologies-nav a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.technologies-nav a.active,
+.technologies-nav a:hover {
+  color: #d78129;
+}
+
+.technologies-carousel {
+  /* Carousel styling goes here */
+}
