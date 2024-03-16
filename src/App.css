@@ -483,6 +483,19 @@ nav ul ul a:hover{
   color: #d78129;
 }
 
+  /** Technologies Carousel Styling **/
 .technologies-carousel {
-  /* Carousel styling goes here */
+  overflow: hidden;
+  position: relative;
+  margin-top: 30px;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.technologies-carousel img {
+  width: 100%;
+  height: auto;
 }
