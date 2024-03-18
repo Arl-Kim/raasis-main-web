@@ -469,11 +469,11 @@ nav ul ul a:hover{
 }
 
 .technologies-nav li {
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 .technologies-nav a {
-  color: #fff;
+  color: #0071bc;
   font-size: 16px;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
