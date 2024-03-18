@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 function TechnologiesSection() {
     const categories = [
         { id: 'mobile', name: 'Mobile', images: ['ios_swift.svg', 'kotlin_logo.svg', 'flutter.svg', 'react_native.svg', 'pwa_logo.svg'] },
-        { id: 'frontend', name: 'Front-End', images: ['frontend1.jpg', 'frontend2.jpg', 'frontend3.jpg'] },
-        { id: 'backend', name: 'Back-End', images: ['backend1.jpg', 'backend2.jpg', 'backend3.jpg'] },
-        { id: 'cms', name: 'CMS & ECommerce', images: ['cms1.jpg', 'cms2.jpg', 'cms3.jpg'] },
-        { id: 'database', name: 'Database', images: ['database1.jpg', 'database2.jpg', 'database3.jpg'] },
-        { id: 'cloud', name: 'Cloud', images: ['cloud1.jpg', 'cloud2.jpg', 'cloud3.jpg'] },
-        { id: 'graphics', name: 'Graphics Design', images: ['graphics1.jpg', 'graphics2.jpg', 'graphics3.jpg'] },
+        { id: 'frontend', name: 'Front-End', images: ['html.svg', 'css.svg', 'javascript.svg', 'react.svg', 'angular.svg', 'vue.svg', 'next.svg', 'meteor.svg', 'gatsby.svg', 'nuxtjs_icon.svg'] },
+        { id: 'backend', name: 'Back-End', images: ['java.svg', 'nest.svg', 'net_core.svg', 'net_mvc.svg', 'node.svg', 'php.svg', 'python.svg'] },
+        { id: 'cms', name: 'CMS & ECommerce', images: ['contentful.svg', 'magento.svg', 'meteor.svg', 'quintype.svg', 'shopify.svg', 'strapi.svg', 'woo_commerce.svg', 'wordpress.svg'] },
+        { id: 'database', name: 'Database', images: ['firebase.svg', 'mongodb.svg', 'mysql_server.svg', 'MySQL.webp', 'NoSQL.svg', 'oracle.svg', 'postgre_SQl.svg', 'SQL_server.svg'] },
+        { id: 'cloud', name: 'Cloud', images: ['aws.svg', 'azure_logo.svg', 'gcp.svg', 'heroku.svg'] },
+        { id: 'graphics', name: 'Graphics Design', images: ['adobe_illustrator.svg', 'adobe_indesign.svg', 'adobe_photoshop.svg', 'blender.svg', 'canva.svg', 'figma.svg'] },
       ];
 
       //Manage Selected Category
