@@ -446,19 +446,20 @@ nav ul ul a:hover{
 
 /* Technologies Section Styling */
 .technologies-section {
-  padding: 50px 0;
+  margin-top: 100px;
+}
+
+.technologies-intro{
   text-align: center;
+  margin: 0 50px 50px 50px;
 }
 
-.technologies-section h2 {
+.technologies-intro h2 {
   color: #d78129;
-  font-size: 28px;
 }
 
-.technologies-section p {
-  color: #fff;
-  font-size: 18px;
-  margin-bottom: 30px;
+.technologies-intro p {
+  text-align: center;
 }
 
 .technologies-nav ul {
