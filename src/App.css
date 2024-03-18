@@ -488,15 +488,17 @@ nav ul ul a:hover{
 .technologies-carousel {
   overflow: hidden;
   position: relative;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .carousel-inner {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  justify-content: center;
+  align-items: center;
 }
 
 .technologies-carousel img {
-  width: 100%;
+  width: 200px;
   height: auto;
+  margin: 0 50px;
 }
