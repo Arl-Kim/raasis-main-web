@@ -17,8 +17,10 @@ function TechnologiesSection() {
       
   return (
     <div className="technologies-section">
-      <h2>We Build & Deploy Across The Tech Stack</h2>
-      <p>Our team of expert designers, developers, and engineers are highly skilled in both classic and modern technologies.</p>
+      <div className='technologies-intro'>
+        <h2>We Build & Deploy Across The Tech Stack</h2>
+        <p>Our team of expert designers, developers, and engineers are highly skilled in both classic and modern technologies.</p>
+      </div>
       
       <nav className="technologies-nav">
         <ul>
