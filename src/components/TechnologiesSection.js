@@ -7,7 +7,7 @@ function TechnologiesSection() {
         { id: 'frontend', name: 'Front-End', images: ['html.svg', 'css.svg', 'javascript.svg', 'react.svg', 'angular.svg', 'vue.svg', 'next.svg', 'meteor.svg', 'gatsby.svg', 'nuxtjs_icon.svg'] },
         { id: 'backend', name: 'Back-End', images: ['java.svg', 'nest.svg', 'net_core.svg', 'net_mvc.svg', 'node.svg', 'php.svg', 'python.svg'] },
         { id: 'cms', name: 'CMS & ECommerce', images: ['contentful.svg', 'magento.svg', 'meteor.svg', 'quintype.svg', 'shopify.svg', 'strapi.svg', 'woo_commerce.svg', 'wordpress.svg'] },
-        { id: 'database', name: 'Database', images: ['firebase.svg', 'mongodb.svg', 'mysql_server.svg', 'MySQL.webp', 'NoSQL.svg', 'oracle.svg', 'postgre_SQl.svg', 'SQL_server.svg'] },
+        { id: 'database', name: 'Database', images: ['firebase.svg', 'mongodb.svg', 'mysql_server.svg', 'NoSQL.svg', 'oracle.svg', 'postgre_SQl.svg', 'SQL_server.svg'] },
         { id: 'cloud', name: 'Cloud', images: ['aws.svg', 'azure_logo.svg', 'gcp.svg', 'heroku.svg'] },
         { id: 'graphics', name: 'Graphics Design', images: ['adobe_illustrator.svg', 'adobe_indesign.svg', 'adobe_photoshop.svg', 'blender.svg', 'canva.svg', 'figma.svg'] },
       ];
