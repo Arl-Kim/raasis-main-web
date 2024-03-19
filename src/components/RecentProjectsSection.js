@@ -9,26 +9,26 @@ const RecentProjectsSection = () => {
       </div>
       <div className="recent-projects-grid">
         <div className='recent-project-item'>
-            <img src='' alt=''/>
-            <img className='gif' src='' alt=''/>
+            <img src='/assets/moocourses.png' alt='Transfrontières MooCourses'/>
+            <img className='gif' src='/assets/moocourses.gif' alt='Transfrontières MooCourses'/>
         </div>
       </div>
       <div className="recent-projects-grid">
         <div className='recent-project-item'>
-            <img src='' alt=''/>
-            <img className='gif' src='' alt=''/>
+            <img src='/assets/moocourses.png' alt='Transfrontières MooCourses'/>
+            <img className='gif' src='/assets/moocourses.gif' alt='Transfrontières MooCourses'/>
         </div>
       </div>
       <div className="recent-projects-grid">
         <div className='recent-project-item'>
-            <img src='' alt=''/>
-            <img className='gif' src='' alt=''/>
+            <img src='/assets/moocourses.png' alt='Transfrontières MooCourses'/>
+            <img className='gif' src='/assets/moocourses.gif' alt='Transfrontières MooCourses'/>
         </div>
       </div>
       <div className="recent-projects-grid">
         <div className='recent-project-item'>
-            <img src='' alt=''/>
-            <img className='gif' src='' alt=''/>
+            <img src='/assets/moocourses.png' alt='Transfrontières MooCourses'/>
+            <img className='gif' src='/assets/moocourses.gif' alt='Transfrontières MooCourses'/>
         </div>
       </div>
     </div>
