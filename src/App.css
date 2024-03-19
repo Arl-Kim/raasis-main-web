@@ -588,7 +588,7 @@ nav ul ul a:hover{
   margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 50px;
 }
 
 .client-recognition-left{
@@ -607,6 +607,24 @@ nav ul ul a:hover{
 }
 
 .client-recognition-left img{
-  width: 700px;
-  height: 700px;
+  width: 400px;
+  height: 400px;
+}
+
+.client-recognition-right{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-right: 50px;
+}
+
+.brand-logos{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  row-gap: 50px;
+}
+
+.brand-logos img{
+  width: 100px;
+  height: 100px;
 }
