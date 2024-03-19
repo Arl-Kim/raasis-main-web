@@ -29,12 +29,11 @@ function RotatingHeader(){
         'Join Our Growing Client Community Today',
       ];
     
-      const [currentPhrase, setCurrentPhrase] = useState(phrases[0]);
+      const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
     
       useEffect(() => {
         const intervalId = setInterval(() => {
-          const randomIndex = Math.floor(Math.random() * phrases.length);
-          setCurrentPhrase(phrases[randomIndex]);
+          setCurrentPhraseIndex((prevIndex) => (prevIndex + 1) % phrases.length);
         }, 5000); // Will adjust accordingly later
     
         return () => clearInterval(intervalId);
@@ -42,7 +41,7 @@ function RotatingHeader(){
     
       return (
         <h2>
-          {currentPhrase}
+          {phrases[currentPhraseIndex]}
         </h2>
       );
 }
