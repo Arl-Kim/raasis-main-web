@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 function ClientRecognitionSection() {
   return (
     <div className="client-recognition-section">
-      <div className="client-recognition-content">
         <div className="client-recognition-left">
           <RotatingHeader />
           <p>From individual brands and startups to leading industry enterprises, Our Client Community keeps gaining new members. What makes them stay at Ra'Asis is our top-notch IT talent that facilitates upscaling of their teams or building custom software solutions. We know you have your unique needs as an individual or group and so we deliver a full spectrum of integrated design, development, and maintenance services for automation and modernization.</p>
@@ -17,7 +16,6 @@ function ClientRecognitionSection() {
           </div>
           <Link to="/join" className="cta-button">Join Our Client Community</Link>
         </div>
-      </div>
     </div>
   );
 }
