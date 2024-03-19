@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 function TechnologiesSection() {
     const categories = [
-        { id: 'mobile', name: 'Mobile', images: ['ios_swift.svg', 'kotlin_logo.svg', 'flutter.svg', 'react_native.svg', 'pwa_logo.svg'] },
-        { id: 'frontend', name: 'Front-End', images: ['html.svg', 'css.svg', 'javascript.svg', 'react.svg', 'angular.svg', 'vue.svg', 'next.svg', 'meteor.svg', 'gatsby.svg', 'nuxtjs_icon.svg'] },
-        { id: 'backend', name: 'Back-End', images: ['java.svg', 'nest.svg', 'net_core.svg', 'net_mvc.svg', 'node.svg', 'php.svg', 'python.svg'] },
-        { id: 'cms', name: 'CMS & ECommerce', images: ['contentful.svg', 'magento.svg', 'meteor.svg', 'quintype.svg', 'shopify.svg', 'strapi.svg', 'woo_commerce.svg', 'wordpress.svg'] },
-        { id: 'database', name: 'Database', images: ['firebase.svg', 'mongodb.svg', 'mysql_server.svg', 'NoSQL.svg', 'oracle.svg', 'postgre_SQl.svg', 'SQL_server.svg'] },
-        { id: 'cloud', name: 'Cloud', images: ['aws.svg', 'azure_logo.svg', 'gcp.svg', 'heroku.svg'] },
-        { id: 'graphics', name: 'Graphics Design', images: ['adobe_illustrator.svg', 'adobe_indesign.svg', 'adobe_photoshop.svg', 'blender.svg', 'canva.svg', 'figma.svg'] },
+        { id: 'mobile', name: 'Mobile', images: ['ios_swift.svg', 'kotlin_logo.svg', 'flutter.svg', 'react_native.svg', 'pwa_logo.svg'], labels: ['Swift', 'Kotlin', 'Flutter', 'React Native', 'PWA'] },
+        { id: 'frontend', name: 'Front-End', images: ['html.svg', 'css.svg', 'javascript.svg', 'react.svg', 'angular.svg', 'vue.svg', 'next.svg', 'meteor.svg', 'gatsby.svg', 'nuxtjs_icon.svg'], labels: ['HTML', 'CSS', 'JavaScript', 'React', 'Angular', 'Vue', 'Next.js', 'Meteor', 'Gatsby', 'Nuxt.js'] },
+        { id: 'backend', name: 'Back-End', images: ['java.svg', 'nest.svg', 'net_core.svg', 'net_mvc.svg', 'node.svg', 'php.svg', 'python.svg'], labels: ['Java', 'Nest', '.NET Core', '.NET MVC', 'Node.js', 'PHP', 'Python'] },
+        { id: 'cms', name: 'CMS & ECommerce', images: ['contentful.svg', 'magento.svg', 'meteor.svg', 'quintype.svg', 'shopify.svg', 'strapi.svg', 'woo_commerce.svg', 'wordpress.svg'], labels: ['Contentful', 'Magento', 'Meteor', 'Quintype', 'Shopify', 'Strapi', 'WooCommerce', 'WordPress'] },
+        { id: 'database', name: 'Database', images: ['firebase.svg', 'mongodb.svg', 'mysql_server.svg', 'NoSQL.svg', 'oracle.svg', 'postgre_SQl.svg', 'SQL_server.svg'], labels: ['Firebase', 'MongoDB', 'MySQL Server', 'NoSQL', 'Oracle', 'PostgreSQL', 'SQL Server'] },
+        { id: 'cloud', name: 'Cloud', images: ['aws.svg', 'azure_logo.svg', 'gcp.svg', 'heroku.svg'], labels: ['AWS', 'Microsoft Azure', 'Google Cloud Platform', 'Heroku'] },
+        { id: 'graphics', name: 'Graphics Design', images: ['adobe_illustrator.svg', 'adobe_indesign.svg', 'adobe_photoshop.svg', 'blender.svg', 'canva.svg', 'figma.svg'], labels: ['Adobe Illustrator', 'Adobe InDesign', 'Adobe Photoshop', 'Blender', 'Canva', 'Figma'] },
       ];
 
       //Manage Selected Category
@@ -38,12 +38,13 @@ function TechnologiesSection() {
         </ul>
       </nav>
       
-      <div className="technologies-carousel">
-        <div className="carousel-inner" style={{ transform: `translateX(-${categories.indexOf(selectedCategory) * 100}%)` }}>
-            {selectedCategory.images.map((image, index) => (
-                <img key={index} src={`/assets/${image}`} alt={selectedCategory.name} />
-            ))}
-        </div>
+      <div className="technologies-images">
+        {selectedCategory.images.map((image, index) => (
+            <div key={index} className="technology-image">
+                <img src={`/assets/${image}`} alt={selectedCategory.labels[index]} />
+                <p>{selectedCategory.labels[index]}</p>
+            </div>
+        ))}
       </div>
     </div>
   );
