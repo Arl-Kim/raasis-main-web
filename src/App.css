@@ -580,3 +580,33 @@ nav ul ul a:hover{
   display: block;
   opacity: 1;
 }
+
+
+/*Client Recognition Section Styling*/
+
+.client-recognition-section{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.client-recognition-left{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-left: 50px;
+}
+
+.client-recognition-left h2{
+  margin-bottom: 20px;
+}
+
+.client-recognition-left p{
+  margin-bottom: 20px;
+}
+
+.client-recognition-left img{
+  width: 700px;
+  height: 700px;
+}
