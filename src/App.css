@@ -548,7 +548,7 @@ nav ul ul a:hover{
   border-radius: 15px;
   box-shadow: 0 2px 5px #0071bc;
   cursor: pointer;
-  transition: box-shadow 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .recent-project-item:hover {
@@ -575,6 +575,7 @@ nav ul ul a:hover{
   display: none;
 }
 
-.recent-project-item:hover .gif {
+.recent-project-item:hover img.gif {
   display: block;
+  opacity: 1;
 }
