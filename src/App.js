@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import IntroductionSection from './components/IntroductionSection';
 import ServicesOverviewSection from './components/ServicesOverviewSection';
 import TechnologiesSection from './components/TechnologiesSection';
+import RecentProjectsSection from './components/RecentProjectsSection';
 import Services from './components/Services';
 import AboutUs from './components/AboutUs';
 import Industries from './components/Industries';
@@ -85,6 +86,8 @@ function App() {
         <ServicesOverviewSection />
 
         <TechnologiesSection />
+
+        <RecentProjectsSection />
 
         <Routes>
           <Route path="/services" element={<Services />} />
