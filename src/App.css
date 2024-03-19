@@ -514,3 +514,67 @@ nav ul ul a:hover{
   color: #d78129;
   font-size: 14px;
 }
+
+
+/*Recent Projects Section Styling*/
+
+.recent-projects-section {
+  margin-top: 100px;
+}
+
+.recent-projects-intro {
+  text-align: center;
+  margin: 0 50px 50px 50px;
+}
+
+.recent-projects-intro h2 {
+  color: #d78129;
+}
+
+.recent-projects-intro p {
+  text-align: center;
+}
+
+.rp-grid-area {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
+  margin: 0 50px;
+}
+
+.recent-project-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px #0071bc;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.recent-project-item:hover {
+  box-shadow: 0 4px 10px #0071bc;
+}
+
+.recent-project-item img {
+  width: 400px;
+  height: 400px;
+  display: block;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.recent-project-item:hover img {
+  opacity: 0;
+}
+
+.recent-project-item .gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.recent-project-item:hover .gif {
+  display: block;
+}
