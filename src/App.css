@@ -490,6 +490,7 @@ nav ul ul a:hover{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  row-gap: 50px;
   overflow: hidden;
   position: relative;
   margin-top: 50px;
