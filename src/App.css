@@ -138,7 +138,7 @@ nav ul ul a {
 
 nav ul ul a:hover{
   background-color: #0071bc;
-  color: #163153;
+  color: #081b29;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -163,11 +163,11 @@ nav ul ul a:hover{
 
 .cta-button a {
   background-color: #0071bc;
-  color: #163153;
+  color: #081b29;
   padding: 20px 40px;
   text-decoration: none;
   font-weight: 800;
-  border: 3px double #163153;
+  border: 3px double #081b29;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
   transition: all 0.5s ease-in-out;
@@ -175,7 +175,7 @@ nav ul ul a:hover{
 
 .cta-button a:hover {
   background-color: #d78129;
-  color: #163153;
+  color: #081b29;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 15px;
@@ -232,7 +232,7 @@ nav ul ul a:hover{
 }
 
  #dev_team{
-  background-color: #163153;
+  background-color: #081b29;
   color: #d78129;
   padding: 20px 40px;
   text-decoration: none;
@@ -246,7 +246,7 @@ nav ul ul a:hover{
 
 #dev_team:hover{
   background-color: #d78129;
-  color: #163153;
+  color: #081b29;
   box-shadow: 0 0 5px #e9bc77;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -256,11 +256,11 @@ nav ul ul a:hover{
 
 #more_about{
   background-color: #d78129;
-  color: #163153;
+  color: #081b29;
   padding: 20px 40px;
   text-decoration: none;
   font-weight: 800;
-  border: 3px double #163153;
+  border: 3px double #081b29;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
   transition: all 0.5s ease-in-out;
@@ -268,7 +268,7 @@ nav ul ul a:hover{
 
 #more_about:hover{
   background-color: #0071bc;
-  color: #163153;
+  color: #081b29;
   border-color: #0071bc;
   box-shadow: 0 0 10px #0071bc;
   border-top-right-radius: 0px;
@@ -358,7 +358,7 @@ nav ul ul a:hover{
 }
 
 .service{
-  background-color: #163153;
+  background-color: #081b29;
   padding: 30px;
   border: 3px double #0071bc;
   border-top-right-radius: 15px;
@@ -393,12 +393,12 @@ nav ul ul a:hover{
 }
 
 .service:hover span{
-  color: #163153;
+  color: #081b29;
   background-color: #d78129;
 }
 
 .service:hover h3{
-  color: #163153;
+  color: #081b29;
 }
 
 .service-icon{
@@ -422,11 +422,11 @@ nav ul ul a:hover{
 
 .service-btn button{
   background-color: #d78129;
-  color: #163153;
+  color: #081b29;
   padding: 20px 40px;
   text-decoration: none;
   font-weight: 800;
-  border: 3px double #163153;
+  border: 3px double #081b29;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
   transition: all 0.5s ease-in-out;
@@ -435,8 +435,8 @@ nav ul ul a:hover{
 .service-btn button:hover{
   cursor: pointer;
   background-color: #0071bc;
-  color: #163153;
-  box-shadow: 0 0 10px #163153;
+  color: #081b29;
+  box-shadow: 0 0 10px #081b29;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 15px;
