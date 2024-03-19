@@ -38,7 +38,7 @@ function App() {
           <nav>
             <ul>
               <li>
-                <Link to="/services"><span class="material-symbols-sharp left-side">linked_services</span>Services<span class="material-symbols-sharp right-side">keyboard_double_arrow_down</span>
+                <Link onClick={() => scrollToSection('services-section')}><span class="material-symbols-sharp left-side">linked_services</span>Services<span class="material-symbols-sharp right-side">keyboard_double_arrow_down</span>
                 </Link>
                   <ul className="submenu">
                     <li><Link to="/services/software-development"><span class="material-symbols-sharp sub-side">developer_mode_tv</span>Software Development</Link></li>
@@ -83,7 +83,9 @@ function App() {
 
         <ProjectProcessSection />
 
-        <ServicesOverviewSection />
+        <div id='services-section'>
+          <ServicesOverviewSection />
+        </div>
 
         <TechnologiesSection />
 
@@ -195,6 +197,13 @@ function ProjectProcessSection() {
       </div>
     </div>
   );
+}
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
 }
 
 export default App;
