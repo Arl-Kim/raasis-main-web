@@ -4,6 +4,7 @@ import IntroductionSection from './components/IntroductionSection';
 import ServicesOverviewSection from './components/ServicesOverviewSection';
 import TechnologiesSection from './components/TechnologiesSection';
 import RecentProjectsSection from './components/RecentProjectsSection';
+import ClientRecognitionSection from './components/ClientRecognitionSection';
 import Services from './components/Services';
 import AboutUs from './components/AboutUs';
 import Industries from './components/Industries';
@@ -90,6 +91,8 @@ function App() {
         <TechnologiesSection />
 
         <RecentProjectsSection />
+
+        <ClientRecognitionSection />
 
         <Routes>
           <Route path="/services" element={<Services />} />
