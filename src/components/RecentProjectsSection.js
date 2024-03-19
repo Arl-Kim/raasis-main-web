@@ -8,7 +8,28 @@ const RecentProjectsSection = () => {
         <p>We empower startups and upcoming brands, with cutting-edge digital software products, that propel them to guaranteed success in their niche.</p>
       </div>
       <div className="recent-projects-grid">
-        {/* Project items will go here */}
+        <div className='recent-project-item'>
+            <img src='' alt=''/>
+            <img className='gif' src='' alt=''/>
+        </div>
+      </div>
+      <div className="recent-projects-grid">
+        <div className='recent-project-item'>
+            <img src='' alt=''/>
+            <img className='gif' src='' alt=''/>
+        </div>
+      </div>
+      <div className="recent-projects-grid">
+        <div className='recent-project-item'>
+            <img src='' alt=''/>
+            <img className='gif' src='' alt=''/>
+        </div>
+      </div>
+      <div className="recent-projects-grid">
+        <div className='recent-project-item'>
+            <img src='' alt=''/>
+            <img className='gif' src='' alt=''/>
+        </div>
       </div>
     </div>
   );
