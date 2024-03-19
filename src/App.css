@@ -484,21 +484,26 @@ nav ul ul a:hover{
   color: #d78129;
 }
 
-  /** Technologies Carousel Styling **/
-.technologies-carousel {
+  /** Technologies Images Styling **/
+.technologies-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   overflow: hidden;
   position: relative;
   margin-top: 50px;
 }
 
-.carousel-inner {
+.technology-image{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.technologies-carousel img {
-  width: 200px;
-  height: auto;
+.technology-image img {
+  width: 50px;
+  height: 50px;
   margin: 0 50px;
 }
