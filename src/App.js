@@ -38,7 +38,7 @@ function App() {
           <nav>
             <ul>
               <li>
-                <Link onClick={() => scrollToSection('services-section')}><span class="material-symbols-sharp left-side">linked_services</span>Services<span class="material-symbols-sharp right-side">keyboard_double_arrow_down</span>
+                <Link onClick={() => scrollToSection('services_section')}><span class="material-symbols-sharp left-side">linked_services</span>Services<span class="material-symbols-sharp right-side">keyboard_double_arrow_down</span>
                 </Link>
                   <ul className="submenu">
                     <li><Link to="/services/software-development"><span class="material-symbols-sharp sub-side">developer_mode_tv</span>Software Development</Link></li>
@@ -83,7 +83,7 @@ function App() {
 
         <ProjectProcessSection />
 
-        <div id='services-section'>
+        <div id='services_section'>
           <ServicesOverviewSection />
         </div>
 
