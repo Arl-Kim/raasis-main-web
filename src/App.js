@@ -32,7 +32,7 @@ function App() {
         <header>
           <div className="logo">
             <Link to="/">
-              <img src="/assets/logo.png" alt="Logo" />
+              <img src="/assets/raasis_logo.svg" alt="Logo" />
             </Link>
           </div>
           <nav>
