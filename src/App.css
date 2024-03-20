@@ -765,6 +765,25 @@ nav ul ul a:hover{
   box-shadow: 0 0 10px #0071bc;
 }
 
+  /*Individual Card Styles*/
+
+#light_orange{
+  background: #e9bc77;
+}
+
+#dark_orange{
+  background: #d78129;
+}
+
+#light_blue{
+  background: #0071bc;
+}
+
+#dark_blue{
+  background: #081b29;
+  border: 1px solid #0071bc;
+}
+
 .reason-icon i{
   color: #081b29;
   font-size: 70px;
