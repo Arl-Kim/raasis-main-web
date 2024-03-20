@@ -28,11 +28,13 @@ const WhyChooseSection = () => {
           <h3>5++</h3>
           <h4>Years Of Experience</h4>
         </div>
+      </div>
+      <div className='final-reason'>
         <div className="reason-card" id='dark_orange'>
-          <div className="reason-icon"><i className='material-symbols-sharp'>handyman</i></div>
-          <h3>4 Weeks</h3>
-          <h4>Free Maintenance After Deployment</h4>
-        </div>
+            <div className="reason-icon"><i className='material-symbols-sharp'>handyman</i></div>
+            <h3>4 Weeks</h3>
+            <h4>Free Maintenance After Deployment</h4>
+            </div>
       </div>
     </div>
   );
