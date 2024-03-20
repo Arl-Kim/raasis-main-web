@@ -663,3 +663,56 @@ nav ul ul a:hover{
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
+
+/*Client Testimonials Section Styling*/
+
+.client-testimonials-section{
+  margin-top: 100px;
+}
+
+.client-testimonials-intro{
+  text-align: center;
+  margin: 0 50px 50px 50px;
+}
+
+.client-testimonials-intro p{
+  text-align: center;
+}
+
+.client-testimonials{
+  margin: 0 50px 0 50px;
+}
+
+.client-images{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.client-images img{
+  width: 90%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.testimonial-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-content h3{
+  font-size: 25px;
+}
+
+.testimonial-content h4{
+  color: #d78129;
+}
+
+.testimonial-content p{
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
