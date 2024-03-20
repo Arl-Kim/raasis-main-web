@@ -3,11 +3,11 @@ import React from 'react';
 const WhyChooseSection = () => {
   return (
     <div className="why-choose-section">
-      <div className="introduction">
+      <div className="why-choose-introduction">
         <h2>Why Choose Ra'Asis?</h2>
         <p>Partnering with us comes with guaranteed digital transformation for your brand.</p>
       </div>
-      <div className="main-content">
+      <div className="why-choose-reasons">
         <div className="reason-card">
           <div className="reason-icon">Icon 1</div>
           <h3>Reason 1</h3>
