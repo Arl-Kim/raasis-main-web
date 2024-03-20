@@ -21,7 +21,9 @@ function ClientRecognitionSection() {
             <div><img src="/assets/zeway_logo.svg" alt="Zeway Builders" /></div>
             <div><img src="/assets/mmu_stormerz.svg" alt="MMU Stormerz" /></div>
           </div>
-          <Link to="/join" className="cta-button">Join Our Client Community</Link>
+          <div className='client-recognition-btn'>
+            <Link to="/join" id='join_comm'>Join Our Client Community</Link>
+          </div>
         </div>
     </div>
   );
