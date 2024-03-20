@@ -726,3 +726,56 @@ nav ul ul a:hover{
   margin: auto;
   text-align: center;
 }
+
+
+/*Why Choose Us Section Styling*/
+
+.why-choose-section{
+  margin-top: 100px;
+}
+
+.why-choose-introduction{
+  text-align: center;
+  margin: 0 50px 50px 50px;
+}
+
+.why-choose-introduction p{
+  text-align: center;
+}
+
+.why-choose-reasons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px 0 50px;
+}
+
+.reason-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 20px;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.reason-card:hover{
+  box-shadow: 0 0 10px #0071bc;
+}
+
+.reason-icon i{
+  color: #081b29;
+  font-size: 70px;
+}
+
+.reason-card h3{
+  color: #081b29;
+  font-size: 30px;
+}
+
+.reason-card h4{
+  color: #081b29;
+  font-size: 20px;
+}
