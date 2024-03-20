@@ -30,8 +30,8 @@ function ClientRecognitionSection() {
 function RotatingHeader(){
     const phrases = [
         'We Empower Brands Across Kenya, Africa & The World',
-        'In Equal Measure They Empower Us',
-        'Join Our Growing Client Community Today',
+        'In Equal Measure They Empower Us To Be The Best',
+        'Join Our Growing Client Community Today For Mutual Growth',
       ];
     
       const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
