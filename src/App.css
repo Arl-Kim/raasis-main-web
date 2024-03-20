@@ -800,3 +800,8 @@ nav ul ul a:hover{
   font-size: 20px;
   text-align: center;
 }
+
+.final-reason{
+  max-width: 50%;
+  margin: 50px auto;
+}
