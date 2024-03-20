@@ -6,6 +6,7 @@ import TechnologiesSection from './components/TechnologiesSection';
 import RecentProjectsSection from './components/RecentProjectsSection';
 import ClientRecognitionSection from './components/ClientRecognitionSection';
 import ClientTestimonialsSection from './components/ClientTestimonialsSection';
+import WhyChooseSection from './components/WhyChooseSection';
 import Services from './components/Services';
 import AboutUs from './components/AboutUs';
 import Industries from './components/Industries';
@@ -96,6 +97,8 @@ function App() {
         <ClientRecognitionSection />
 
         <ClientTestimonialsSection />
+
+        <WhyChooseSection />
 
         <Routes>
           <Route path="/services" element={<Services />} />
