@@ -11,15 +11,15 @@ function ClientRecognitionSection() {
         </div>
         <div className="client-recognition-right">
           <div className="brand-logos">
-            <img src="/assets/oaks_africa.svg" alt="Oaks Africa Foundation" />
-            <img src="/assets/transfro_logo.svg" alt="Transfrontières Agencies" />
-            <img src="/assets/better_sips.svg" alt="Better Sips" />
-            <img src="/assets/infernos.svg" alt="Mombasa Infernos" />
-            <img src="/assets/taai_logo.svg" alt="Taai Media" />
-            <img src="/assets/mugeiyot.svg" alt="Mugeiyot" />
-            <img src="/assets/kaytech.svg" alt="KayTech CompVilla" />
-            <img src="/assets/zeway_logo.svg" alt="Zeway Builders" />
-            <img src="/assets/mmu_stormerz.svg" alt="MMU Stormerz" />
+            <div><img src="/assets/transfro_logo.svg" alt="Transfrontières Agencies" /></div>
+            <div><img src="/assets/oaks_africa.svg" alt="Oaks Africa Foundation" /></div>
+            <div><img src="/assets/mugeiyot.svg" alt="Mugeiyot" /></div>
+            <div><img src="/assets/infernos.svg" alt="Mombasa Infernos" /></div>
+            <div><img src="/assets/taai_logo.svg" alt="Taai Media" /></div>
+            <div><img src="/assets/better_sips.svg" alt="Better Sips" /></div>
+            <div><img src="/assets/kaytech.svg" alt="KayTech CompVilla" /></div>
+            <div><img src="/assets/zeway_logo.svg" alt="Zeway Builders" /></div>
+            <div><img src="/assets/mmu_stormerz.svg" alt="MMU Stormerz" /></div>
           </div>
           <Link to="/join" className="cta-button">Join Our Client Community</Link>
         </div>
