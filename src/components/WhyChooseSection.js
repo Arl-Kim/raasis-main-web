@@ -10,28 +10,28 @@ const WhyChooseSection = () => {
       <div className="why-choose-reasons">
         <div className="reason-card">
           <div className="reason-icon">Icon 1</div>
-          <h3>Reason 1</h3>
-          <h4>Description 1</h4>
+          <h3>99%</h3>
+          <h4>Client Satisfaction</h4>
         </div>
         <div className="reason-card">
           <div className="reason-icon">Icon 2</div>
-          <h3>Reason 2</h3>
-          <h4>Description 2</h4>
+          <h3>100++</h3>
+          <h4>Completed Projects</h4>
         </div>
         <div className="reason-card">
           <div className="reason-icon">Icon 3</div>
-          <h3>Reason 3</h3>
-          <h4>Description 3</h4>
+          <h3>100%</h3>
+          <h4>Client Retention Rate</h4>
         </div>
         <div className="reason-card">
           <div className="reason-icon">Icon 4</div>
-          <h3>Reason 4</h3>
-          <h4>Description 4</h4>
+          <h3>5++</h3>
+          <h4>Years Of Experience</h4>
         </div>
         <div className="reason-card">
           <div className="reason-icon">Icon 5</div>
-          <h3>Reason 5</h3>
-          <h4>Description 5</h4>
+          <h3>4 Weeks</h3>
+          <h4>Free Maintenance After Deployment</h4>
         </div>
       </div>
     </div>
