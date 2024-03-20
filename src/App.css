@@ -755,7 +755,7 @@ nav ul ul a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 20px 50px;
   margin: 0 20px;
   border-radius: 15px;
   transition: all 0.5s ease-in-out;
@@ -772,10 +772,12 @@ nav ul ul a:hover{
 
 .reason-card h3{
   color: #081b29;
-  font-size: 30px;
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 .reason-card h4{
   color: #081b29;
   font-size: 20px;
+  text-align: center;
 }
