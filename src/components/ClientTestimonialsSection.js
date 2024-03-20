@@ -17,7 +17,7 @@ const testimonialsData = [
   },
 
   {
-    id: 2,
+    id: 3,
     name: 'Eng. Samwel Ochieng Young',
     position: 'Chairman',
     company: 'Mombasa Infernos Softball & Baseball Club',
@@ -25,7 +25,7 @@ const testimonialsData = [
   },
 
   {
-    id: 2,
+    id: 4,
     name: 'Kelvin Kiprono',
     position: 'CEO & Founder',
     company: 'KayTech CompVilla',
@@ -33,7 +33,7 @@ const testimonialsData = [
   },
 
   {
-    id: 2,
+    id: 5,
     name: 'Francis Karugu',
     position: 'Sports Director & Manager',
     company: 'MMU Stormerz Softball Club',
