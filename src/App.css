@@ -624,7 +624,12 @@ nav ul ul a:hover{
   row-gap: 50px;
 }
 
+.brand-logos div{
+  display: flex;
+  justify-content: center;
+}
+
 .brand-logos img{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
