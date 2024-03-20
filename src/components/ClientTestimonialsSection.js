@@ -9,7 +9,7 @@ const testimonialsData = [
     testimonial: 'Working with Ra\'Asis has been a game-changer for our business. Their expertise and dedication have helped us achieve remarkable results.'
   },
   {
-    id: 2,
+    id: 3,
     name: 'Eng. Onesmus Maritim',
     position: 'Founder',
     company: 'Oaks Africa Foundation',
@@ -25,7 +25,7 @@ const testimonialsData = [
   },
 
   {
-    id: 4,
+    id: 3,
     name: 'Kelvin Kiprono',
     position: 'CEO & Founder',
     company: 'KayTech CompVilla',
@@ -33,7 +33,7 @@ const testimonialsData = [
   },
 
   {
-    id: 5,
+    id: 3,
     name: 'Francis Karugu',
     position: 'Sports Director & Manager',
     company: 'MMU Stormerz Softball Club',
