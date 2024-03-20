@@ -3,19 +3,43 @@ import React, { useState } from 'react';
 const testimonialsData = [
   {
     id: 1,
-    name: 'John Doe',
-    position: 'CEO',
-    company: 'ABC Company',
+    name: 'Clara C. Lagat',
+    position: 'CEO & Founder',
+    company: 'Transfrontières Agencies Limited',
     testimonial: 'Working with Ra\'Asis has been a game-changer for our business. Their expertise and dedication have helped us achieve remarkable results.'
   },
   {
     id: 2,
-    name: 'Jane Smith',
-    position: 'CTO',
-    company: 'XYZ Corporation',
-    testimonial: 'Ra\'Asis exceeded our expectations with their innovative solutions. We are delighted with the impact their services have had on our company.'
+    name: 'Eng. Onesmus Maritim',
+    position: 'Founder',
+    company: 'Oaks Africa Foundation',
+    testimonial: 'Ra\'Asis exceeded our expectations with their innovative solutions. We are delighted with the impact their services have had on our foundation.'
   },
-  
+
+  {
+    id: 2,
+    name: 'Eng. Samwel Ochieng Young',
+    position: 'Chairman',
+    company: 'Mombasa Infernos Softball & Baseball Club',
+    testimonial: 'Ra\'Asis exceeded our expectations with their innovative solutions. We are delighted with the impact their services have had on our club.'
+  },
+
+  {
+    id: 2,
+    name: 'Kelvin Kiprono',
+    position: 'CEO & Founder',
+    company: 'KayTech CompVilla',
+    testimonial: 'Ra\'Asis exceeded our expectations with their innovative solutions. We are delighted with the impact their services have had on our firm.'
+  },
+
+  {
+    id: 2,
+    name: 'Francis Karugu',
+    position: 'Sports Director & Manager',
+    company: 'MMU Stormerz Softball Club',
+    testimonial: 'Ra\'Asis exceeded our expectations with their innovative solutions. We are delighted with the impact their services have had on our club.'
+  },
+
   // Will add more testimonials as needed
 ];
 
