@@ -1,4 +1,4 @@
-# Ra'Asis Web React App
+# Ra'Asis Web App
 
 This project is a dynamic React web application for Ra'Asis, a platform that links Ra'Asis clients directly with our services and development teams.
 
