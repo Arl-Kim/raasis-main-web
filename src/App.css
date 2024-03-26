@@ -857,40 +857,69 @@ nav ul ul a:hover{
 }
 
 .lead-gen-right{
-  display: flex;
-  flex-direction: column;
   max-width: 100%;
   margin-right: 50px;
 }
 
-.lead-gen-right form{
+.lead-gen-right form .input-box{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
-.lead-gen-right form input, select, textarea{
-  margin-top: 20px;
+.lead-gen-right form .input-box input, select{
   color: #0071bc;
   border: 2px solid #0071bc;
   border-radius: 5px;
   background: transparent;
-  width: 50%;
-  height: 100%;
-  padding: 20px;
+  padding: 10px 20px;
   font-size: 15px;
 }
 
-.lead-gen-right form .focus{
-  background: #0071bc;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
+.lead-gen-right form .input-box .select-field select{
+  width: 220px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.lead-gen-right form .input-box .textarea-field textarea{
+  background: transparent;
+  color: #0071bc;
+  border: 2px solid #0071bc;
   border-radius: 5px;
-  z-index: -1;
-  transition: all 400ms ease-in-out;
+  padding: 10px 20px;
+  margin-top: 20px;
+  resize: none;
+  font-size: 15px;
+  width: 650px;
+  height: 100px;
+}
+
+.lead-gen-right form .input-box .submit-btn{
+  margin: auto;
+}
+
+.lead-gen-right form .input-box .submit-btn button{
+  background-color: #d78129;
+  color: #081b29;
+  padding: 20px 40px;
+  font-weight: 800;
+  border: 3px double #081b29;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transition: all 0.5s ease-in-out;
+  margin-top: 20px;
+}
+
+.lead-gen-right form .input-box .submit-btn button:hover{
+  background-color: #0071bc;
+  color: #081b29;
+  border-color: #0071bc;
+  box-shadow: 0 0 10px #0071bc;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
 }
