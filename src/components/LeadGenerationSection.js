@@ -16,21 +16,35 @@ const LeadGenerationSection = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Send form data to email address
-    console.log('Form submitted:', formData);
-    
-    // Clear form fields after submission
-    setFormData({
-      name: '',
-      phoneNumber: '',
-      email: '',
-      country: '',
-      serviceOfInterest: '',
-      budget: '',
-      projectDescription: ''
-    });
+    try {
+      const response = await fetch('http://localhost:3001/submit-form', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        console.log('Form submitted successfully');
+        // Clear form fields after successful submission
+        setFormData({
+          name: '',
+          phoneNumber: '',
+          email: '',
+          country: '',
+          serviceOfInterest: '',
+          budget: '',
+          projectDescription: ''
+        });
+      } else {
+        console.error('Failed to submit form');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
   };
 
   return (
