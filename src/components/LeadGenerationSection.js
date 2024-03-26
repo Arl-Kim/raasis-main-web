@@ -5,6 +5,7 @@ const LeadGenerationSection = () => {
     name: '',
     phoneNumber: '',
     email: '',
+    country: '',
     serviceOfInterest: '',
     budget: '',
     projectDescription: ''
@@ -25,6 +26,7 @@ const LeadGenerationSection = () => {
       name: '',
       phoneNumber: '',
       email: '',
+      country: '',
       serviceOfInterest: '',
       budget: '',
       projectDescription: ''
@@ -44,24 +46,53 @@ const LeadGenerationSection = () => {
       </div>
       <div className="lead-gen-right">
         <form onSubmit={handleSubmit}>
-          <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" required /><br/>
-          <input type="tel" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} placeholder="Phone Number" required /><br/>
-          <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" required /><br/>
-          <select name="serviceOfInterest" value={formData.serviceOfInterest} onChange={handleChange} required>
-            <option value="">Service Of Interest</option>
-            {/* Replace the following options with your nine main services */}
-            <option value="Service 1">Service 1</option>
-            <option value="Service 2">Service 2</option>
-            {/* Add more options as needed */}
-          </select><br/>
-          <select name="budget" value={formData.budget} onChange={handleChange} required>
-            <option value="">Choose Budget</option>
-            {/* Add ranges of amounts as options */}
-            <option value="KES 10K - KES 20K">KES 10K - KES 20K</option>
-            {/* Add more options as needed */}
-          </select><br/>
-          <textarea name="projectDescription" value={formData.projectDescription} onChange={handleChange} placeholder="Project Description" required /><br/>
-          <button type="submit">Send Details</button>
+          <div className='input-box'>
+              <div className='input-field'>
+                  <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" required />
+              </div>
+              <div className='input-field'>
+                  <input type="tel" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} placeholder="Phone Number" required />
+              </div>
+          </div>
+
+          <div className='input-box'>
+              <div className='input-field'>
+                  <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" required />
+              </div>
+              <div className='input-field'>
+                  <input type="country" name="country" value={formData.country} onChange={handleChange} placeholder="Country" required />
+              </div>
+          </div>
+
+          <div className='input-box'>
+              <div className='select-field'>
+                  <select name="serviceOfInterest" value={formData.serviceOfInterest} onChange={handleChange} required>
+                      <option value="">Service Of Interest</option>
+                      {/* Replace the following options with our nine main services */}
+                      <option value="Service 1">Service 1</option>
+                      <option value="Service 2">Service 2</option>
+                      {/* Add more options as needed */}
+                  </select>
+              </div>
+              <div className='select-field'>
+                  <select name="budget" value={formData.budget} onChange={handleChange} required>
+                      <option value="">Choose Budget</option>
+                      {/* Add ranges of amounts as options */}
+                      <option value="KES 10K - KES 20K">KES 10K - KES 20K</option>
+                      {/* Will add more options as needed */}
+                  </select>
+              </div>
+          </div>
+          <div className='input-box'>
+            <div className='textarea-field'>
+                <textarea name="projectDescription" value={formData.projectDescription} onChange={handleChange} placeholder="Project Description" required></textarea>
+            </div>
+          </div>
+          <div className='input-box'>
+            <div className='submit-btn'>
+              <button type="submit">Send Details</button>
+            </div>
+          </div>
         </form>
       </div>
     </div>
