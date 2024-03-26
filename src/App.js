@@ -7,6 +7,7 @@ import RecentProjectsSection from './components/RecentProjectsSection';
 import ClientRecognitionSection from './components/ClientRecognitionSection';
 import ClientTestimonialsSection from './components/ClientTestimonialsSection';
 import WhyChooseSection from './components/WhyChooseSection';
+import LeadGenerationSection from './components/LeadGenerationSection';
 import Services from './components/Services';
 import AboutUs from './components/AboutUs';
 import Industries from './components/Industries';
@@ -99,6 +100,8 @@ function App() {
         <ClientTestimonialsSection />
 
         <WhyChooseSection />
+
+        <LeadGenerationSection />
 
         <Routes>
           <Route path="/services" element={<Services />} />
