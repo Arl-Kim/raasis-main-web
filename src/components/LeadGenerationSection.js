@@ -34,11 +34,11 @@ const LeadGenerationSection = () => {
   return (
     <div className="lead-generation-section">
       <div className="lead-gen-left">
-        <h2>We are Software Engineers, Combining Code and Creativity With Agile Software Engineering Processes</h2>
+        <h2>We Are Software Engineers, Combining Code & Creativity With Agile Software Engineering Processes</h2>
         <p>
           Check out the case studies for what we have built recently over at the 
           <a href="/built-by-us" target="_blank" rel="noopener noreferrer"> Built By Us </a>
-          page. If you are ready to work, let us discuss your project in detail.
+          page. If you are ready to work, let us discuss your project in detail.<br/>
           <span className="arrow-icon">&#10132;</span>
         </p>
       </div>
