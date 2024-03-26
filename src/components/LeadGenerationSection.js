@@ -68,17 +68,27 @@ const LeadGenerationSection = () => {
               <div className='select-field'>
                   <select name="serviceOfInterest" value={formData.serviceOfInterest} onChange={handleChange} required>
                       <option value="">Service Of Interest</option>
-                      {/* Replace the following options with our nine main services */}
-                      <option value="Service 1">Service 1</option>
-                      <option value="Service 2">Service 2</option>
-                      {/* Add more options as needed */}
+                      <option value="Software Development">Software Development</option>
+                      <option value="Website Design & Development">Website Design & Development</option>
+                      <option value="Web Application Development">Web Application Development</option>
+                      <option value="Mobile Application Development">Mobile Application Development</option>
+                      <option value="MVP Development">MVP Development</option>
+                      <option value="Maintenance">Maintenance</option>
+                      <option value="Software Project Management">Software Project Management</option>
+                      <option value="Computer Architecture">Computer Architecture</option>
+                      <option value="Graphics Design">Graphics Design</option>
                   </select>
               </div>
               <div className='select-field'>
                   <select name="budget" value={formData.budget} onChange={handleChange} required>
                       <option value="">Choose Budget</option>
-                      {/* Add ranges of amounts as options */}
+                      <option value="Below KES 10K">Below KES 10K</option>
                       <option value="KES 10K - KES 20K">KES 10K - KES 20K</option>
+                      <option value="KES 20K - KES 40K">KES 20K - KES 40K</option>
+                      <option value="KES 40K - KES 80K">KES 40K - KES 80K</option>
+                      <option value="KES 80K - KES 160K">KES 80K - KES 160K</option>
+                      <option value="KES 160K - KES 320K">KES 160K - KES 320K</option>
+                      <option value="Above KES 320K">Above KES 320K</option>
                       {/* Will add more options as needed */}
                   </select>
               </div>
