@@ -1,5 +1,9 @@
 /*General Styles*/
 
+*:focus{
+outline: none;
+}
+
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
@@ -850,4 +854,43 @@ nav ul ul a:hover{
   color: #d78129;
   left: 120px;
   cursor: pointer;
+}
+
+.lead-gen-right{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-right: 50px;
+}
+
+.lead-gen-right form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.lead-gen-right form input, select, textarea{
+  margin-top: 20px;
+  color: #0071bc;
+  border: 2px solid #0071bc;
+  border-radius: 5px;
+  background: transparent;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.lead-gen-right form .focus{
+  background: #0071bc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 5px;
+  z-index: -1;
+  transition: all 400ms ease-in-out;
 }
