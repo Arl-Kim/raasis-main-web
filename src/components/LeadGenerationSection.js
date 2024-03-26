@@ -44,23 +44,23 @@ const LeadGenerationSection = () => {
       </div>
       <div className="lead-gen-right">
         <form onSubmit={handleSubmit}>
-          <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" required />
-          <input type="tel" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} placeholder="Phone Number" required />
-          <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" required />
+          <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" required /><br/>
+          <input type="tel" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} placeholder="Phone Number" required /><br/>
+          <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" required /><br/>
           <select name="serviceOfInterest" value={formData.serviceOfInterest} onChange={handleChange} required>
             <option value="">Service Of Interest</option>
             {/* Replace the following options with your nine main services */}
             <option value="Service 1">Service 1</option>
             <option value="Service 2">Service 2</option>
             {/* Add more options as needed */}
-          </select>
+          </select><br/>
           <select name="budget" value={formData.budget} onChange={handleChange} required>
             <option value="">Choose Budget</option>
             {/* Add ranges of amounts as options */}
             <option value="KES 10K - KES 20K">KES 10K - KES 20K</option>
             {/* Add more options as needed */}
-          </select>
-          <textarea name="projectDescription" value={formData.projectDescription} onChange={handleChange} placeholder="Project Description" required />
+          </select><br/>
+          <textarea name="projectDescription" value={formData.projectDescription} onChange={handleChange} placeholder="Project Description" required /><br/>
           <button type="submit">Send Details</button>
         </form>
       </div>
