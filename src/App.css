@@ -1109,3 +1109,10 @@ small{
   opacity: 1;
   box-shadow: none;
 }
+
+.footer-right .terms-policy{
+  margin-top: 115px;
+  color: #0071bc;
+  font-size: 15px;
+  font-weight: 600;
+}
