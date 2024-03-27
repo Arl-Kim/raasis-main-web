@@ -31,29 +31,29 @@ const Footer = () => {
                 <div className="center-left">
                     <h4>Services</h4>
                     <ul>
-                        <li><Link to="/services/software-development">Software Development</Link></li>
-                        <li><Link to="/services/website-design">Website Design & Development</Link></li>
-                        <li><Link to="/services/web-application">Web Application Development</Link></li>
                         <li><Link to="/services/mobile-application">Mobile Application Development</Link></li>
-                        <li><Link to="/services/website-maintenance">Maintenance & Content Management</Link></li>
+                        <li><Link to="/services/website-design">Website Design & Development</Link></li>
                         <li><Link to="/services/software-project">Software Project Management</Link></li>
-                        <li><Link to="/services/mvp-development">MVP Development</Link></li>
+                        <li><Link to="/services/web-application">Web Application Development</Link></li>
+                        <li><Link to="/services/website-maintenance">Maintenance & Management</Link></li>
                         <li><Link to="/services/computer-architecture">Computer Architecture</Link></li>
+                        <li><Link to="/services/software-development">Software Development</Link></li>
+                        <li><Link to="/services/mvp-development">MVP Development</Link></li>
                         <li><Link to="/services/graphics-design">Graphics Design</Link></li>
                     </ul>
                 </div>
                 <div className="center-right">
                     <h4>About Ra'Asis</h4>
                     <ul>
-                        <li><Link to="#">Robust & Secure</Link></li>
-                        <li><Link to="#">Our Culture</Link></li>
-                        <li><Link to="#">The Ra'Asis Team</Link></li>
-                        <li><Link to="#">Careers</Link></li>
-                        <li><Link to="#">Industries</Link></li>
-                        <li><Link to="#">Testimonials</Link></li>
-                        <li><Link to="#">Blog</Link></li>
-                        <li><Link to="#">Tech. Affiliates</Link></li>
                         <li><Link to="#">Security At Ra'Asis</Link></li>
+                        <li><Link to="#">The Ra'Asis Team</Link></li>
+                        <li><Link to="#">Robust & Secure</Link></li>
+                        <li><Link to="#">Tech. Affiliates</Link></li>
+                        <li><Link to="#">Testimonials</Link></li>
+                        <li><Link to="#">Our Culture</Link></li>
+                        <li><Link to="#">Industries</Link></li>
+                        <li><Link to="#">Careers</Link></li>
+                        <li><Link to="#">Blog</Link></li>
                     </ul>
                 </div>
             </div>
