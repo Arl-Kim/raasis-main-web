@@ -8,6 +8,7 @@ import ClientRecognitionSection from './components/ClientRecognitionSection';
 import ClientTestimonialsSection from './components/ClientTestimonialsSection';
 import WhyChooseSection from './components/WhyChooseSection';
 import LeadGenerationSection from './components/LeadGenerationSection';
+import Footer from './components/Footer';
 import Services from './components/Services';
 import AboutUs from './components/AboutUs';
 import Industries from './components/Industries';
@@ -128,6 +129,7 @@ function App() {
           <Route path="/hire-a-developer/front-end" element={<FrontEnd />} />
           <Route path="/hire-a-developer/back-end" element={<BackEnd />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
