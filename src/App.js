@@ -84,7 +84,6 @@ function ServicesRoutes() {
       <Route path="/mvp-development" element={<MvpDevelopment />} />
       <Route path="/computer-architecture" element={<ComputerArchitecture />} />
       <Route path="/graphics-design" element={<GraphicsDesign />} />
-      
     </Routes>
   );
 }
