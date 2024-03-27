@@ -932,6 +932,7 @@ nav ul ul a:hover{
   grid-template-columns: repeat(3, 2fr);
   gap: 50px;
   margin-top: 100px;
+  box-shadow: 0 2px 5px #0071bc;
 }
 
 .footer-left{
