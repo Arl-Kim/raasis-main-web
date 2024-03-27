@@ -27,7 +27,7 @@ function TechnologiesSection() {
             {categories.map(category => (
                 <li key={category.id}>
                     <Link
-                        to={`/technologies/${category.id}`}
+                        to="#"
                         className={selectedCategory.id === category.id ? 'active' : ''}
                         onClick={() => setSelectedCategory(category)}
                     >
