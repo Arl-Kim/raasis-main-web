@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -55,5 +55,37 @@ function Header() {
     </header>
   );
 }
+
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  function RotatingText() {
+    const phrases = [
+      'We build and deploy across the tech stack',
+      'We strictly adhere to industry-proven Agile SE processes',
+      'We guarantee robust and secure digital products',
+    ];
+  
+    const [currentPhrase, setCurrentPhrase] = useState(phrases[0]);
+  
+    useEffect(() => {
+      const intervalId = setInterval(() => {
+        const randomIndex = Math.floor(Math.random() * phrases.length);
+        setCurrentPhrase(phrases[randomIndex]);
+      }, 10000);
+  
+      return () => clearInterval(intervalId);
+    }, []);
+  
+    return (
+      <div className="submenu-text">
+        <p>{currentPhrase}</p>
+      </div>
+    );
+  }
 
 export default Header;
