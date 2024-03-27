@@ -36,57 +36,77 @@ function App() {
   return (
     <Router>
       <div className="App">
-
         <Header />
-        
-        <IntroductionSection />
-
-        <ProjectProcessSection />
-
-        <div id='services_section'>
-          <ServicesOverviewSection />
-        </div>
-
-        <TechnologiesSection />
-
-        <RecentProjectsSection />
-
-        <ClientRecognitionSection />
-
-        <ClientTestimonialsSection />
-
-        <WhyChooseSection />
-
-        <LeadGenerationSection />
-
         <Routes>
-          <Route path="/services" element={<Services />} />
-          
-          <Route path="/services/software-development" element={<SoftwareDevelopment />} />
-          <Route path="/services/website-design" element={<WebsiteDesign />} />
-          <Route path="/services/web-application" element={<WebApplication />} />
-          <Route path="/services/mobile-application" element={<MobileApplication />} />
-          <Route path="/services/website-maintenance" element={<WebsiteMaintenance />} />
-          <Route path="/services/software-project" element={<SoftwareProject />} />
-          <Route path="/services/mvp-development" element={<MvpDevelopment />} />
-          <Route path="/services/computer-architecture" element={<ComputerArchitecture />} />
-          <Route path="/services/graphics-design" element={<GraphicsDesign />} />
-          
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/about-us/our-culture" element={<OurCulture />} />
-          <Route path="/about-us/our-team" element={<OurTeam />} />
-          <Route path="/about-us/blog" element={<Blog />} />
-          
+          <Route path="/" element={<Home />} />
+          <Route path="/services/*" element={<ServicesRoutes />} />
+          <Route path="/about-us/*" element={<AboutUsRoutes />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/built-by-us" element={<BuiltByUs />} />
-
-          <Route path="/hire-a-developer" element={<HireADeveloper />} />
-          <Route path="/hire-a-developer/front-end" element={<FrontEnd />} />
-          <Route path="/hire-a-developer/back-end" element={<BackEnd />} />
+          <Route path="/hire-a-developer/*" element={<HireADeveloperRoutes />} />
         </Routes>
         <Footer />
       </div>
     </Router>
+  );
+}
+
+function Home() {
+  return (
+    <>
+      <IntroductionSection />
+      <ProjectProcessSection />
+
+      <div id='services_section'>
+        <ServicesOverviewSection />
+      </div>
+
+      <TechnologiesSection />
+      <RecentProjectsSection />
+      <ClientRecognitionSection />
+      <ClientTestimonialsSection />
+      <WhyChooseSection />
+      <LeadGenerationSection />
+    </>
+  );
+}
+
+function ServicesRoutes() {
+  return (
+    <Routes>
+      <Route path="/" element={<Services />} />
+      <Route path="/software-development" element={<SoftwareDevelopment />} />
+      <Route path="/website-design" element={<WebsiteDesign />} />
+      <Route path="/web-application" element={<WebApplication />} />
+      <Route path="/mobile-application" element={<MobileApplication />} />
+      <Route path="/website-maintenance" element={<WebsiteMaintenance />} />
+      <Route path="/software-project" element={<SoftwareProject />} />
+      <Route path="/mvp-development" element={<MvpDevelopment />} />
+      <Route path="/computer-architecture" element={<ComputerArchitecture />} />
+      <Route path="/graphics-design" element={<GraphicsDesign />} />
+      
+    </Routes>
+  );
+}
+
+function AboutUsRoutes() {
+  return (
+    <Routes>
+      <Route path="/" element={<AboutUs />} />
+      <Route path="/our-culture" element={<OurCulture />} />
+      <Route path="/our-team" element={<OurTeam />} />
+      <Route path="/blog" element={<Blog />} />
+    </Routes>
+  );
+}
+
+function HireADeveloperRoutes() {
+  return (
+    <Routes>
+      <Route path="/" element={<HireADeveloper />} />
+      <Route path="/front-end" element={<FrontEnd />} />
+      <Route path="/back-end" element={<BackEnd />} />
+    </Routes>
   );
 }
 
